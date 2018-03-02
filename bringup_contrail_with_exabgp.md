@@ -1,5 +1,5 @@
 # Steps to bring up contrail with ExaBGP
-#### Tested on centos 7.3
+#### Tested on Centos 7.3 with Contrail R3.2.x
 
 - On all the Contrail Controllers
   - Install docker
