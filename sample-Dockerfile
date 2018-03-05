@@ -1,4 +1,5 @@
 # Using and modifying as per my requirement on https://hub.docker.com/r/tomo/exabgp/~/dockerfile/
+# You can build the container, using command 'docker build -t <name>:tag .'
 
 FROM ubuntu:14.04
 
