@@ -25,7 +25,6 @@ ENV PEER_AS 65412
 ENV LOCAL_AS 65412
 ENV HOLD_TIME 5
 ENV VIP_ADDRESS 100.1.1.20/32
-ENV NUM_PREPEND 1
 
 # Pull above env variables to create .env file
 RUN /usr/local/bin/exabgp --fi > /usr/local/etc/exabgp/exabgp.env
