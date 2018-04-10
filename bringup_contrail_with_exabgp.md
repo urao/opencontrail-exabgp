@@ -8,7 +8,7 @@
     controllers are running BGP on default interfaces
   - Create Exa-BGP service under ``` /lib/systemd/system/exabgp.service ```
   - Restart the exabgp service
-  - Verify BGP sessions are established with Spine SW and VIP is reachable
+  - Verify BGP sessions are established with QFX switches and VIP is reachable
   - Start Contrail deployment
   - Configure env.ha in testbed.py file, under /opt/contrail/utils/fabfile/testbeds/
   - Disable keepalived deployment, comment out "setup_contrail_keepalived" in file, /opt/contrail/utils/fabfile/tasks/ha.py 
